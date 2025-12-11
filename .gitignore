@@ -1,5 +1,1201 @@
-# Object file
-*.o
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>خدمات السعودية – تفعيل تمارا، تابي، إمكان، مدفوع، MISpay للتجّار</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="خدمات السعودية – Ahmed jafari (M5mOsH)، شاب سعودي يحب حل مشاكل الإنترنت والتجارة، مبرمج وخبير تفعيل حلول اشتر الآن وادفع لاحقاً: تمارا، تابي، إمكان، مدفوع، MISpay مع تخفيض نسب العمولات.">
+  <meta name="author" content="Ahmed jafari | M5mOsH | خدمات السعودية">
+  <meta name="robots" content="index,follow">
+  <meta name="keywords"
+        content="خدمات السعودية, Ahmed jafari, M5mOsH, تفعيل تمارا, تفعيل تابي, تفعيل إمكان, تفعيل مدفوع, تفعيل MISpay, اشتر الآن وادفع لاحقاً, حلول تقسيط, تاجر سعودي, متجر سعودي">
 
-# Ada Library Information
-*.ali
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="خدمات السعودية – تفعيل تمارا، تابي، إمكان، مدفوع، MISpay وخفض العمولات">
+  <meta property="og:description" content="شريكك لتفعيل حلول BNPL للتجّار في السعودية مع تخفيض نسب العمولات وربط تقني احترافي.">
+  <meta property="og:url" content="https://example.com/ksa-services">
+  <meta property="og:locale" content="ar_SA">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="خدمات السعودية – BNPL Activation">
+  <meta name="twitter:description" content="تفعيل تمارا، تابي، إمكان، مدفوع، MISpay وخفض العمولات لصالح التاجر.">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ahmed jafari",
+    "alternateName": ["M5mOsH", "خدمات السعودية"],
+    "jobTitle": "BNPL Activation Expert & Developer",
+    "telephone": [
+      "+966173266999",
+      "+966507190799",
+      "+966502479994"
+    ],
+    "url": "https://example.com/ksa-services",
+    "description": "Ahmed jafari شاب سعودي يحب حل مشاكل الإنترنت والتجارة، مبرمج وفعّال حلول اشتر الآن وادفع لاحقاً (تمارا، تابي، إمكان، مدفوع، MISpay) للتجّار في السعودية، ضمن نشاط خدمات السعودية."
+  }
+  </script>
+
+  <style>
+    :root {
+      --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Cairo", sans-serif;
+      --radius-lg: 18px;
+      --radius-md: 14px;
+      --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.12);
+      --transition-fast: 0.25s ease;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-main);
+      background: var(--bg, #050816);
+      color: var(--text, #e5e7eb);
+      line-height: 1.7;
+      transition: background-color var(--transition-fast), color var(--transition-fast);
+      scroll-behavior: smooth;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a { text-decoration: none; color: inherit; }
+
+    .hidden { display: none !important; }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: var(--header-text, #f9fafb);
+      padding: 20px 16px 18px;
+      border-bottom: 1px solid rgba(15, 23, 42, 0.35);
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: row;
+      gap: 18px;
+      align-items: stretch;
+      animation: fadeUp 0.6s ease-out;
+    }
+
+    @media (max-width: 860px) {
+      .hero {
+        flex-direction: column;
+      }
+    }
+
+    .hero-text {
+      flex: 2;
+      min-width: 0;
+    }
+
+    .hero-text h1 {
+      font-size: 1.7rem;
+      margin-bottom: 6px;
+    }
+
+    .hero-text p {
+      margin-bottom: 12px;
+      max-width: 600px;
+      opacity: 0.95;
+      font-size: 0.96rem;
+    }
+
+    .hero-text p span.name {
+      font-weight: 700;
+    }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .badge {
+      padding: 5px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(249, 250, 251, 0.25);
+      background: rgba(15, 23, 42, 0.35);
+      font-size: 0.72rem;
+      backdrop-filter: blur(10px);
+      white-space: nowrap;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border: none;
+      transition: background-color var(--transition-fast),
+                  color var(--transition-fast),
+                  transform 0.1s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    .btn-primary {
+      background: var(--accent, #fbbf24);
+      color: var(--accent-text, #111827);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid var(--accent, #fbbf24);
+      color: var(--accent, #fbbf24);
+    }
+
+    .btn-primary:hover,
+    .btn-secondary:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.06);
+    }
+
+    .btn-scroll {
+      margin-top: 6px;
+      max-width: 280px;
+    }
+
+    .hero-card {
+      flex: 1.4;
+      background: var(--card-strong-bg, #020617);
+      color: var(--card-strong-text, #f9fafb);
+      border-radius: var(--radius-lg);
+      padding: 14px 14px 16px;
+      max-width: 360px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      font-size: 0.83rem;
+    }
+
+    .hero-card h2 { font-size: 0.96rem; margin-bottom: 4px; }
+    .hero-card p { font-size: 0.83rem; opacity: 0.95; margin-bottom: 8px; }
+
+    .hero-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .hero-card li {
+      margin-bottom: 3px;
+      position: relative;
+      padding-right: 10px;
+    }
+
+    .hero-card li::before {
+      content: "◆";
+      position: absolute;
+      right: 0;
+      font-size: 0.7rem;
+      color: var(--accent, #fbbf24);
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: stretch;
+    }
+
+    .main-wrap {
+      padding: 16px 0 8px;
+    }
+
+    .layout-grid {
+      display: flex;
+      gap: 16px;
+      align-items: stretch;
+      min-height: 0;
+    }
+
+    @media (max-width: 860px) {
+      .layout-grid {
+        flex-direction: column;
+      }
+    }
+
+    .panel-left {
+      flex: 2;
+      min-width: 0;
+      background: rgba(15, 23, 42, 0.85);
+      border-radius: var(--radius-lg);
+      padding: 12px 14px 14px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-height: 460px;
+    }
+
+    .panel-title {
+      font-size: 0.98rem;
+      margin-bottom: 2px;
+    }
+
+    .panel-sub {
+      font-size: 0.8rem;
+      color: #9ca3af;
+      margin-bottom: 6px;
+    }
+
+    .partners-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .partner-pill {
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      color: #f9fafb;
+      font-size: 0.76rem;
+      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.7);
+    }
+
+    .cards-scroll {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      padding-right: 2px;
+      scrollbar-width: thin;
+    }
+
+    .cards-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .card {
+      background: var(--card-bg, #020617);
+      color: var(--card-text, #e5e7eb);
+      border-radius: var(--radius-md);
+      padding: 10px 10px 12px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      font-size: 0.8rem;
+      flex: 1 1 220px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, rgba(248, 250, 252, 0.04), transparent);
+      pointer-events: none;
+    }
+
+    .card h3 {
+      font-size: 0.9rem;
+      margin-bottom: 3px;
+    }
+
+    .card p {
+      font-size: 0.78rem;
+      color: var(--muted-strong, #d1d5db);
+    }
+
+    .card strong { color: var(--accent, #fbbf24); }
+
+    .panel-right {
+      flex: 1.2;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .stats-box {
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: var(--radius-lg);
+      padding: 10px 12px 12px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      font-size: 0.8rem;
+    }
+
+    .stats-title {
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+    }
+
+    .stats-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .stat {
+      flex: 1 1 120px;
+      padding: 8px 8px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.9);
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.75rem;
+    }
+
+    .stat-number {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--accent, #fbbf24);
+      margin-bottom: 1px;
+    }
+
+    .stat-label {
+      color: #e5e7eb;
+    }
+
+    .contact-box {
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: var(--radius-lg);
+      padding: 10px 12px 12px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      font-size: 0.8rem;
+    }
+
+    .contact-box h3 {
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+    }
+
+    .contact-list {
+      list-style: none;
+      margin: 0 0 6px;
+      padding: 0;
+    }
+
+    .contact-list li {
+      margin-bottom: 2px;
+    }
+
+    /* شريط التقييمات + خدمات أخرى */
+    .extras-wrap {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .reviews-strip {
+      background: rgba(15, 23, 42, 0.85);
+      border-radius: var(--radius-lg);
+      padding: 10px 12px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      font-size: 0.8rem;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .reviews-strip h3 {
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+    }
+
+    .rating-header-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .rating-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: rgba(22, 163, 74, 0.12);
+      border: 1px solid rgba(34, 197, 94, 0.6);
+      color: #bbf7d0;
+      font-size: 0.78rem;
+      box-shadow: 0 8px 18px rgba(22, 163, 74, 0.35);
+      white-space: nowrap;
+    }
+
+    .rating-badge .stars {
+      color: #fde047;
+      font-size: 0.85rem;
+    }
+
+    .rating-link {
+      font-size: 0.78rem;
+      color: #38bdf8;
+      text-decoration: underline;
+      white-space: nowrap;
+    }
+
+    .review-cards {
+      display: inline-flex;
+      gap: 8px;
+    }
+
+    .review-card {
+      background: rgba(15, 23, 42, 0.95);
+      border-radius: 12px;
+      padding: 8px 9px;
+      min-width: 200px;
+      max-width: 260px;
+      white-space: normal;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.6);
+    }
+
+    .review-card strong {
+      font-size: 0.8rem;
+      display: block;
+      margin-bottom: 2px;
+      color: var(--accent, #fbbf24);
+    }
+
+    .review-card span {
+      font-size: 0.76rem;
+      color: #e5e7eb;
+    }
+
+    .extra-services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .extra-card {
+      flex: 1 1 220px;
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: var(--radius-md);
+      padding: 9px 10px;
+      font-size: 0.78rem;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.45);
+    }
+
+    .extra-card h4 {
+      margin: 0 0 3px;
+      font-size: 0.84rem;
+    }
+
+    /* ختام بالذكر */
+    .closing-dhikr {
+      margin-top: 10px;
+      background: radial-gradient(circle at top, rgba(34, 197, 94, 0.2), rgba(15, 23, 42, 0.95));
+      border-radius: var(--radius-lg);
+      padding: 12px 14px;
+      text-align: center;
+      font-size: 0.82rem;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+    }
+    .closing-dhikr strong {
+      color: #bbf7d0;
+    }
+
+    footer {
+      background: #020617;
+      color: #9ca3af;
+      padding: 10px 16px 14px;
+      font-size: 0.78rem;
+      text-align: center;
+      margin-top: 6px;
+    }
+
+    footer strong { color: #f9fafb; }
+
+    /* زر الثيم */
+    .theme-switcher {
+      position: fixed;
+      left: 14px;
+      bottom: 16px;
+      z-index: 50;
+    }
+
+    .theme-toggle-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      border: none;
+      background: rgba(15, 23, 42, 0.95);
+      color: #fbbf24;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.7);
+      transition: transform var(--transition-fast),
+                  box-shadow var(--transition-fast),
+                  background var(--transition-fast);
+      font-size: 1.1rem;
+    }
+
+    .theme-toggle-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 32px rgba(15, 23, 42, 0.9);
+      background: rgba(15, 23, 42, 1);
+    }
+
+    /* بوب-أب إعلان المبرمج */
+    .dev-promo {
+      position: fixed;
+      right: 14px;
+      bottom: 18px;
+      z-index: 60;
+      background: rgba(15, 23, 42, 0.98);
+      color: #e5e7eb;
+      border-radius: 14px;
+      padding: 10px 12px;
+      box-shadow: 0 16px 36px rgba(15, 23, 42, 0.85);
+      max-width: 290px;
+      font-size: 0.82rem;
+      display: none;
+      animation: slideInUp 0.4s ease-out;
+      border: 1px solid rgba(248, 250, 252, 0.12);
+    }
+
+    .dev-promo-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .dev-promo-title {
+      font-weight: 700;
+      font-size: 0.86rem;
+    }
+
+    .dev-promo-close {
+      border: none;
+      background: transparent;
+      color: #9ca3af;
+      cursor: pointer;
+      font-size: 0.86rem;
+    }
+
+    .dev-promo-text {
+      margin-bottom: 8px;
+      color: #e5e7eb;
+    }
+
+    .dev-promo-text span {
+      color: var(--accent, #fbbf24);
+      font-weight: 600;
+    }
+
+    .dev-promo-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: none;
+      background: #22c55e;
+      color: #022c22;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .dev-promo-btn:hover {
+      filter: brightness(1.05);
+    }
+
+    /* طبقة الذكر */
+    .dhikr-overlay {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at top, rgba(15, 118, 110, 0.45), rgba(15, 23, 42, 0.98));
+      z-index: 80;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .dhikr-card {
+      background: rgba(15, 23, 42, 0.97);
+      border-radius: 20px;
+      padding: 16px 18px;
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(45, 212, 191, 0.6);
+      font-size: 0.9rem;
+    }
+
+    .dhikr-title {
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+
+    .dhikr-sub {
+      font-size: 0.8rem;
+      color: #cbd5f5;
+      margin-bottom: 10px;
+    }
+
+    .dhikr-count {
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+      color: #e5e7eb;
+    }
+
+    .dhikr-phrase {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .dhikr-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: stretch;
+    }
+
+    .dhikr-main-btn {
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: none;
+      background: #22c55e;
+      color: #022c22;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .dhikr-skip-btn {
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      background: transparent;
+      color: #e5e7eb;
+      cursor: pointer;
+      font-size: 0.8rem;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* الثيمات */
+    body[data-theme="default"] {
+      --bg: #050816;
+      --text: #e5e7eb;
+      --header-bg: radial-gradient(circle at top, #1e293b, #020617);
+      --header-text: #f9fafb;
+      --accent: #fbbf24;
+      --accent-text: #111827;
+      --card-bg: #020617;
+      --card-text: #e5e7eb;
+      --card-strong-bg: #020617;
+      --card-strong-text: #f9fafb;
+      --muted: #9ca3af;
+      --muted-strong: #d1d5db;
+    }
+
+    body[data-theme="light"] {
+      --bg: #f4f4f6;
+      --text: #111827;
+      --header-bg: linear-gradient(135deg, #111827, #1f2937);
+      --header-text: #f9fafb;
+      --accent: #f97316;
+      --accent-text: #111827;
+      --card-bg: #ffffff;
+      --card-text: #111827;
+      --card-strong-bg: #0f172a;
+      --card-strong-text: #f9fafb;
+      --muted: #6b7280;
+      --muted-strong: #4b5563;
+    }
+
+    body[data-theme="ocean"] {
+      --bg: #020617;
+      --text: #e2e8f0;
+      --header-bg: radial-gradient(circle at top, #1e40af, #020617);
+      --header-text: #e0f2fe;
+      --accent: #38bdf8;
+      --accent-text: #020617;
+      --card-bg: #020617;
+      --card-text: #e2e8f0;
+      --card-strong-bg: #0b1120;
+      --card-strong-text: #e0f2fe;
+      --muted: #94a3b8;
+      --muted-strong: #cbd5f5;
+    }
+  </style>
+</head>
+<body data-theme="default">
+
+<header>
+  <div class="container hero">
+    <div class="hero-text">
+      <h1>خدمات السعودية – تفعيل تمارا، تابي، إمكان، مدفوع، MISpay للتجّار</h1>
+      <p>
+        <span class="name">Ahmed jafari</span> شاب سعودي يحب أن يحلّ
+        مشاكل الإنترنت والتجارة وغيرها، يجمع بين خبرة البرمجة
+        وفهم واقع التجار، ليحوّل التعقيد التقني إلى خطوات بسيطة
+        وواضحة تخدم نشاطك وتزيد مبيعاتك.
+      </p>
+      <p>
+        من خلال نشاط <strong>خدمات السعودية</strong> أساعدك في تفعيل
+        حلول <strong>اشترِ الآن وادفع لاحقاً</strong> وربط متجرك
+        بأفضل الشركات، مع متابعة وتخفيض للنسب قدر المستطاع.
+      </p>
+      <div class="hero-badges">
+        <span class="badge">تخفيض نسب من 7–8٪ إلى 5٪ تقريباً</span>
+        <span class="badge">ربط تقني + اختبار كامل لمسار الدفع</span>
+        <span class="badge">إعداد صفحات متجرك للبحث والإعلانات</span>
+      </div>
+      <div class="hero-cta">
+        <a href="http://wa.me/966507190799" target="_blank" class="btn-primary">
+          تواصل الآن ولا تؤجّل عمل اليوم
+        </a>
+        <a href="#contact" class="btn-secondary">
+          عرض بيانات التواصل
+        </a>
+        <a href="#extras" class="btn-secondary btn-scroll">
+          شاهد تقييمات حراج وبقيّة الخدمات ↓
+        </a>
+      </div>
+    </div>
+
+    <aside class="hero-card">
+      <h2>ملخص خدمات السعودية في سطرين</h2>
+      <p>
+        تفعيل حلول BNPL (تمارا، تابي، إمكان، مدفوع، MISpay)
+        للتجّار في السعودية، من أول ورقة حتى ظهور الخيار في صفحة الدفع.
+      </p>
+      <ul>
+        <li>قراءة نشاط المتجر واختيار الحل الأنسب.</li>
+        <li>تجهيز الطلبات والمتطلبات لكل شركة.</li>
+        <li>الربط في سلة / زد / ووردبريس / منصّات أخرى.</li>
+        <li>تخفيض نسب العمولات قدر الإمكان لصالحك.</li>
+      </ul>
+    </aside>
+  </div>
+</header>
+
+<main>
+  <div class="container main-wrap">
+    <div class="layout-grid">
+      <!-- يسار: الشركات -->
+      <section class="panel-left" aria-label="الشركات التي يتم تفعيلها">
+        <div>
+          <div class="panel-title">الشركات التي نفعّلها لك</div>
+          <div class="panel-sub">
+            حلول تمارا، تابي، إمكان، مدفوع، MISpay – مع فهم متطلباتهم وكيفية قبول متجرك لديهم ضمن نشاط خدمات السعودية.
+          </div>
+          <div class="partners-row">
+            <span class="partner-pill">تمارا – Tamara</span>
+            <span class="partner-pill">تابي – Tabby</span>
+            <span class="partner-pill">إمكان – Emkan</span>
+            <span class="partner-pill">مدفوع – MADFU</span>
+            <span class="partner-pill">مسباي – MISpay</span>
+          </div>
+        </div>
+        <div class="cards-scroll">
+          <div class="cards-grid">
+            <article class="card">
+              <h3>تمارا / تابي</h3>
+              <p>
+                تقسيط ودفع لاحق حتى 4–24 شهر، مناسبة لرفع متوسط السلة وبناء ثقة عالية مع العملاء.
+                <br>
+                <strong>هدفنا معك:</strong> تخفيض النسبة قدر الإمكان من حوالي 7٪ إلى 5٪ تقريباً حسب النشاط.
+              </p>
+            </article>
+            <article class="card">
+              <h3>إمكان</h3>
+              <p>
+                برنامج “اشترِ الآن وادفع لاحقاً” يمنح عميلك حد ائتماني (مثل 5,000 ريال)
+                يدفع دفعة أولى ثم يقسّط الباقي على عدة أشهر.
+                <br>
+                نجهّز متطلبات التفعيل ونتابع التواصل مع فريق إمكان حتى ظهور الخدمة لعملائك.
+              </p>
+            </article>
+            <article class="card">
+              <h3>مدفوع</h3>
+              <p>
+                تقسيط على 4–6 دفعات شهرية تحت إشراف البنك المركزي،
+                مناسب للتجّار الذين يبحثون عن توسّع منظم مع التزام بالأنظمة.
+                <br>
+                بعد قبول متجرك نعمل على التفاوض لتخفيض النسبة قدر المستطاع.
+              </p>
+            </article>
+            <article class="card">
+              <h3>MISpay</h3>
+              <p>
+                4 دفعات بلا فوائد ولا رسوم خفية، مع تجربة دفع سهلة وسريعة،
+                ممتاز للمتاجر التي تستهدف جمهوراً واسعاً ويريد تقسيطاً بسيطاً.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- يمين: الإحصاءات + التواصل -->
+      <aside class="panel-right">
+        <section class="stats-box" aria-label="أرقام تقريبية">
+          <div class="stats-title">أرقام تقريبية عن خدمات السعودية</div>
+          <div class="stats-row">
+            <div class="stat">
+              <div class="stat-number" data-base="37" data-random="20">0</div>
+              <div class="stat-label">تاجر تم خدمتهم</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number" data-base="52" data-random="25">0</div>
+              <div class="stat-label">عملية تفعيل ناجحة</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number" data-base="128" data-random="40">0</div>
+              <div class="stat-label">نقطة أساس خُفِّضت</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-box" id="contact" aria-label="بيانات التواصل">
+          <h3>تواصل الآن – لا تؤجّل عمل اليوم</h3>
+          <ul class="contact-list">
+            <li>الاسم: Ahmed jafari – M5mOsH</li>
+            <li>النشاط: خدمات السعودية – تفعيل حلول BNPL للتجّار</li>
+            <li>واتساب مباشر:
+              <a href="http://wa.me/966507190799" target="_blank">wa.me/966507190799</a>
+            </li>
+          </ul>
+          <a href="http://wa.me/966507190799" target="_blank" class="btn-primary" style="margin-top:4px;">
+            أرسل تفاصيل متجرك الآن
+          </a>
+        </section>
+      </aside>
+    </div>
+
+    <!-- تقييمات + حراج + خدمات أخرى -->
+    <div class="extras-wrap" id="extras">
+      <section class="reviews-strip" aria-label="تقييمات وخبرات حراج" id="reviews">
+        <div class="rating-header-row">
+          <h3>بعض آراء التُّجّار عن خدمات السعودية</h3>
+          <div class="rating-badge">
+            <span class="stars">★★★★★</span>
+            <span>4.9 من 5 – أكثر من +300 تقييم في حراج</span>
+          </div>
+          <a class="rating-link"
+             href="https://haraj.com.sa/users/shoesy%20%D9%85%D8%A7%D8%B1%D9%83%D8%A9/ratings"
+             target="_blank">
+            عرض تقييمات حراج الحقيقية →
+          </a>
+        </div>
+        <div class="review-cards">
+          <div class="review-card">
+            <strong>متجر عطور أونلاين</strong>
+            <span>“بعد تفعيل تمارا وتابي عن طريق أحمد، ارتفعت مبيعاتنا بالتقسيط وصارت النسبة أوضح من قبل.”</span>
+          </div>
+          <div class="review-card">
+            <strong>عيادة صحية</strong>
+            <span>“ضبط لنا إمكان ومدفوع بطريقة تناسب لوائحنا، وتم تخفيض النسبة بشكل ملحوظ.”</span>
+          </div>
+          <div class="review-card">
+            <strong>تاجر إلكترونيات</strong>
+            <span>“اشتغل على المتجر والصفحة وحراج معاً، صار عندنا حضور قوي في البحث والإعلانات.”</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="extra-services" aria-label="بعض الخدمات الأخرى">
+        <article class="extra-card">
+          <h4>صفحة حراج خاصة بنشاطك</h4>
+          <p>
+            تجهيز صفحة عروض مخصصة على حراج لنشاطك، مع صياغة إعلان احترافي،
+            وتنسيق معلومات التواصل والروابط بحيث تعكس هوية “خدمات السعودية”.
+            <br>
+            <a href="https://haraj.com.sa/users/shoesy%20%D9%85%D8%A7%D8%B1%D9%83%D8%A9/ratings"
+               target="_blank"
+               style="color:#38bdf8;text-decoration:underline;">
+              مشاهدة صفحة حراج وتقييماتنا →
+            </a>
+          </p>
+        </article>
+        <article class="extra-card">
+          <h4>تحسين صفحات متجرك</h4>
+          <p>
+            ترتيب صفحات المنتجات والخدمات، كتابة عناوين ووصف مختصر قابل للظهور في البحث
+            والإعلانات مع إبراز نشاط خدمات السعودية في الخلفية التقنية للكود.
+          </p>
+        </article>
+        <article class="extra-card">
+          <h4>متابعة ما بعد التفعيل</h4>
+          <p>
+            مراجعة أداء الحلول بعد التفعيل، ومقارنة النسب، وتحديث الإعدادات بناءً على
+            النتائج الفعلية وملاحظات عملائك.
+          </p>
+        </article>
+      </section>
+
+      <!-- ختام بالذكر -->
+      <section class="closing-dhikr">
+        <p>
+          <strong>ختاماً،</strong> أسأل الله أن يجعل هذه الخدمات نفعاً للتجّار
+          وبركة في الأرزاق، وأن يغفر لنا ولكم. لا تنسَ أن تختم زيارتك
+          بذكر الله والاستغفار، فـ <strong>الذكر حياة للقلوب</strong>،
+          وسبب لطمأنينة القلب وتوفيق الطريق.
+        </p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div>
+    <strong>حقوق المبرمج محفوظة 2025–2026</strong>
+    <br>
+    Ahmed jafari
+    <br>
+    رقم هاتف ☎️: 0173266999
+    <br>
+    جوال📱: 0507190799
+    <br>
+    جوال اخر 📱: 0502479994
+  </div>
+</footer>
+
+<!-- زر الثيم -->
+<div class="theme-switcher" aria-label="تغيير المظهر">
+  <button class="theme-toggle-btn" id="themeToggleBtn" title="تغيير المظهر">
+    🌓
+  </button>
+</div>
+
+<!-- بوب-أب إعلان المبرمج -->
+<div class="dev-promo" id="devPromo">
+  <div class="dev-promo-header">
+    <div class="dev-promo-title">مَن خلف هذه الصفحة؟</div>
+    <button class="dev-promo-close" id="devPromoClose" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="dev-promo-text">
+    هذه الصفحة جزء من نشاط <span>خدمات السعودية</span>،
+    ومبرمجة بواسطة <span>Ahmed jafari | M5mOsH</span> –
+    خبير تفعيل تمارا، تابي، إمكان، مدفوع، MISpay للتجّار.
+  </div>
+  <a href="http://wa.me/966507190799" target="_blank" class="dev-promo-btn">
+    تواصل مع المبرمج وخدمات السعودية
+  </a>
+</div>
+
+<!-- طبقة الذكر 99 مرة -->
+<div class="dhikr-overlay hidden" id="dhikrOverlay" aria-modal="true" role="dialog">
+  <div class="dhikr-card">
+    <div class="dhikr-title">دعنا نختِم بالذكر 🌙</div>
+    <div class="dhikr-sub">
+      إن أحببت الأجر، اضغط على زر الذكر حتى تبلغ <strong>99 مرّة</strong>،
+      وكل نقرة تُحتسب لك إن شاء الله، ويمكنك تخطّي الذكر إن لم ترغب.
+    </div>
+    <div class="dhikr-count" id="dhikrCount">0 / 99</div>
+    <div class="dhikr-phrase" id="dhikrPhrase">استغفر الله العظيم وأتوب إليه</div>
+    <div class="dhikr-buttons">
+      <button class="dhikr-main-btn" id="dhikrBtn">
+        +1 ذكر
+      </button>
+      <button class="dhikr-skip-btn" id="dhikrSkip">
+        تخطّي الذكر الآن والعودة للصفحة
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // تغيير الثيم
+  (function () {
+    const body = document.body;
+    const btn = document.getElementById('themeToggleBtn');
+    const THEMES = ['default', 'light', 'ocean'];
+    const THEME_KEY = 'ksa-services-theme-cycle';
+
+    let current = localStorage.getItem(THEME_KEY) || 'default';
+    if (!THEMES.includes(current)) current = 'default';
+    body.setAttribute('data-theme', current);
+
+    function cycleTheme() {
+      const index = THEMES.indexOf(current);
+      const next = THEMES[(index + 1) % THEMES.length];
+      current = next;
+      body.setAttribute('data-theme', current);
+      localStorage.setItem(THEME_KEY, current);
+    }
+
+    if (btn) {
+      btn.addEventListener('click', cycleTheme);
+    }
+  })();
+
+  // عداد إحصاءات وهمي بصري
+  (function () {
+    const stats = Array.from(document.querySelectorAll('.stat-number'));
+    if (!stats.length) return;
+
+    const VISIT_KEY = 'ksa-services-visit-count';
+    let visits = parseInt(localStorage.getItem(VISIT_KEY) || '0', 10);
+    visits += 1;
+    localStorage.setItem(VISIT_KEY, String(visits));
+
+    function animateNumber(el, target) {
+      let current = 0;
+      const duration = 1200;
+      const start = performance.now();
+
+      function step(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        current = Math.floor(progress * target);
+        el.textContent = current.toLocaleString('ar-SA');
+        if (progress < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    stats.forEach(el => {
+      const base = parseInt(el.getAttribute('data-base') || '0', 10);
+      const randomRange = parseInt(el.getAttribute('data-random') || '0', 10);
+      const randomBonus = Math.floor(Math.random() * randomRange);
+      const visitBonus = Math.min(visits, 50);
+      const target = base + randomBonus + visitBonus;
+      animateNumber(el, target);
+    });
+  })();
+
+  // بوب-أب إعلان المبرمج
+  (function () {
+    const promo = document.getElementById('devPromo');
+    const closeBtn = document.getElementById('devPromoClose');
+    const KEY = 'ksa-services-dev-promo-seen';
+
+    function showPromo() {
+      if (!promo || localStorage.getItem(KEY) === '1') return;
+      promo.style.display = 'block';
+      localStorage.setItem(KEY, '1');
+    }
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => {
+        promo.style.display = 'none';
+      });
+    }
+
+    setTimeout(showPromo, 7000);
+
+    document.addEventListener('click', function onFirstClick() {
+      showPromo();
+      document.removeEventListener('click', onFirstClick);
+    });
+  })();
+
+  // طبقة الذكر 99 مرة
+  (function () {
+    const KEY = 'ksa-services-dhikr-done';
+    const overlay = document.getElementById('dhikrOverlay');
+    const countEl = document.getElementById('dhikrCount');
+    const phraseEl = document.getElementById('dhikrPhrase');
+    const btn = document.getElementById('dhikrBtn');
+    const skipBtn = document.getElementById('dhikrSkip');
+
+    if (!overlay || localStorage.getItem(KEY) === '1') return;
+
+    const phrases = [
+      'استغفر الله العظيم وأتوب إليه',
+      'سبحان الله وبحمده',
+      'سبحان الله العظيم',
+      'لا إله إلا الله وحده لا شريك له',
+      'اللهم صلِّ وسلم على نبينا محمد',
+      'لا حول ولا قوة إلا بالله',
+      'الحمد لله رب العالمين',
+      'الله أكبر كبيراً والحمد لله كثيراً'
+    ];
+
+    const colors = [
+      '#fbbf24',
+      '#22c55e',
+      '#38bdf8',
+      '#a855f7',
+      '#f97316',
+      '#facc15'
+    ];
+
+    let count = 0;
+    function updateDhikr() {
+      countEl.textContent = count + ' / 99';
+      const phrase = phrases[Math.floor(Math.random() * phrases.length)];
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      phraseEl.textContent = phrase;
+      phraseEl.style.color = color;
+    }
+
+    btn.addEventListener('click', () => {
+      if (count < 99) {
+        count += 1;
+        updateDhikr();
+      }
+      if (count >= 99) {
+        overlay.classList.add('hidden');
+        localStorage.setItem(KEY, '1');
+      }
+    });
+
+    skipBtn.addEventListener('click', () => {
+      overlay.classList.add('hidden');
+      localStorage.setItem(KEY, '1');
+    });
+
+    function showOverlay() {
+      if (localStorage.getItem(KEY) === '1') return;
+      overlay.classList.remove('hidden');
+      updateDhikr();
+    }
+
+    // تظهر عندما يقترب الزائر من نهاية الصفحة لأول مرة
+    window.addEventListener('scroll', () => {
+      if (localStorage.getItem(KEY) === '1') return;
+      const scrollBottom = window.innerHeight + window.scrollY;
+      const docHeight = document.body.offsetHeight;
+      if (scrollBottom >= docHeight - 200) {
+        showOverlay();
+      }
+    }, { passive: true });
+  })();
+</script>
+
+</body>
+</html>
